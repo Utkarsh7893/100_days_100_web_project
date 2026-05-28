@@ -103,7 +103,7 @@ function setAccentColor(accent) {
   localStorage.setItem("clockAccent", accent);
 
   // Remove only manual accent classes, keep time-based theme class
-  document.body.classList.remove("classic-theme", "modern-theme", "futuristic-theme", "nebula-theme");
+  document.body.classList.remove("classic-theme", "modern-theme", "future-theme", "nebula-theme");
   // Add the selected manual accent class
   document.body.classList.add(`${accent}-theme`);
 
